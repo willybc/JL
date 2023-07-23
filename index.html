@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mi Aplicación</title>
+		
+		<link
+			rel="stylesheet"
+			href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="styles/style.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Aplicación</title>
-  <link rel="stylesheet" href="styles/style.css">
-</head>
+		<script defer src="app.js"></script>
+	</head>
 
-<body>
-  <header>
-    <!-- Aquí puedes agregar el encabezado de tu aplicación -->
-    <h1>Bienvenido a Mi Aplicación</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+	<body>
+		<section class="hidden">
+			<h1>Hello School</h1>
+			<p>this is me example</p>
+		</section>
 
-  <main>
-    <!-- Aquí puedes agregar el contenido principal de tu aplicación -->
-    <section>
-      <h2>Contenido principal</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-    </section>
-  </main>
+		<section class="hidden">
+			<h2>This is me product</h2>
+			<p>Es un producto con mucho carinio</p>
+		</section>
 
-  <footer>
-    <!-- Aquí puedes agregar el pie de página de tu aplicación -->
-    <p>Todos los derechos reservados &copy; 2023</p>
-  </footer>
+		<section>
+			<h2>It's really good</h2>
+			<div class="logos">
+				<div class="logo hidden">
+					<img
+						src="https://api.dicebear.com/6.x/adventurer/svg?seed=Abby"
+						alt="avatar"
+					/>
+				</div>
 
-  <!-- Aquí puedes enlazar tu archivo JavaScript principal -->
-  <script src="app.js"></script>
-</body>
+				<div class="logo hidden">
+					<img
+						src="https://api.dicebear.com/6.x/adventurer/svg?seed=Angel"
+						alt="avatar"
+					/>
+				</div>
 
+				<div class="logo hidden">
+					<img
+						src="https://api.dicebear.com/6.x/adventurer/svg?seed=Coco"
+						alt="avatar"
+					/>
+				</div>
+			</div>
+		</section>
+
+		<!-- <script src="example-matter.js" type="module"></script> -->
+		<!-- jQuery (necesario para algunos componentes de Bootstrap) -->
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<!-- Popper.js (necesario para algunos componentes de Bootstrap) -->
+		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
 </html>

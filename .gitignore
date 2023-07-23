@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dependencias específicas de npm (pueden variar según tu proyecto)
+/package-lock.json
+/yarn.lock
+
+# Dependencias específicas de pnpm (pueden variar según tu proyecto)
+/pnpm-lock.yaml
+/pnpm-workspace.yaml
+
+# Archivos de construcción y compilados
+/dist/
+/build/
+/out/
+
+# Logs
+/logs/
+*.log
+
+# Entorno específico
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mac OS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# IDEs y editores en general
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos generados por testing
+/coverage/
+
+# Carpeta para reportes generados por herramientas como Istanbul
+/nyc_output/
+
+# Otros archivos y directorios generados por herramientas y configuraciones específicas
+/custom-folder/
+/*.zip
+/*.tar.gz
+
+# Archivos de configuración del sistema
+*.swp
+Thumbs.db
+
+# Archivos de configuración de editorconfig
+.editorconfig
+
+# Archivos de configuración de eslintrc
+.eslintrc
+.eslintignore
