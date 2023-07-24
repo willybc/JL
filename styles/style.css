@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
 body {
-    background: #131316;
-    color: #ffffff;
+    /* background: #131316; */
+    color: black;
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
@@ -59,3 +59,18 @@ section {
 .logo:nth-child(4) {
     transition-delay: 600ms;
 }
+
+#pixi-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  /* Estilos para el canvas */
+  #pixi-container canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    touch-action: none;
+    cursor: inherit;
+  }
