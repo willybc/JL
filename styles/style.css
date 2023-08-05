@@ -17,7 +17,9 @@ body {
 .container-presentacion, 
 .container-scientific, 
 .container-text,
-.container-servicios-oneTime {
+.container-servicios-oneTime,
+.container-servicios-continuos
+{
     padding-left: 8rem;
     padding-right: 8rem;
 
@@ -111,6 +113,23 @@ section h2 {
 .container-cards .row {
     width: 100%;
     row-gap: 2.5rem;
+}
+
+.container-servicios-continuos {
+    background: #FFBE00;
+}
+
+.container-white-servicios-continuos {
+    background: white;
+    height: 60vh;
+}
+
+.container-white-servicios-continuos h2 {
+    padding: 3rem 4rem;
+}
+
+.container-cards-continuos {
+    margin-top: 1rem;
 }
 
 @media(prefers-reduced-motion) {
