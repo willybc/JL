@@ -18,7 +18,8 @@ body {
 .container-scientific, 
 .container-text,
 .container-servicios-oneTime,
-.container-servicios-continuos
+.container-servicios-continuos,
+.container-contacto
 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -119,7 +120,7 @@ section h2 {
     background: #FFBE00;
 }
 
-.container-white-servicios-continuos {
+.container-white-servicios-continuos, .container-white-servicios-contacto {
     background: white;
     height: 60vh;
 }
@@ -130,6 +131,22 @@ section h2 {
 
 .container-cards-continuos {
     margin-top: 1rem;
+}
+
+.container-white-servicios-contacto{
+    padding: 5rem;
+}
+
+.card-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.card-contacto .row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(prefers-reduced-motion) {
