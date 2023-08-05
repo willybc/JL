@@ -18,7 +18,7 @@ let app;
       const containerWidth = document.getElementById('pixi-container').offsetWidth;
       const containerHeight = document.getElementById('pixi-container').offsetHeight;
 
-      app = new PIXI.Application({ resizeTo: window });
+      app = new PIXI.Application({ width: containerWidth, height: containerHeight });
       document.getElementById('pixi-container').appendChild(app.view);
 
       sprite = PIXI.Sprite.from('https://api.dicebear.com/6.x/adventurer/svg?seed=Coco');

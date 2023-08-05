@@ -8,11 +8,22 @@ body {
     margin: 0;
 }
 
+.navbar {
+    background: #FFBE00;
+    height: 20vh;
+}
+
+.container-header {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
 section {
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 80vh;
+    align-items: flex-start;
 }
 
 .hidden {
@@ -26,6 +37,18 @@ section {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.container-presentacion {
+    background: #FFBE00;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
+    align-items: center;
+    height: 100%;
 }
 
 @media(prefers-reduced-motion) {
