@@ -13,17 +13,28 @@ body {
     height: 20vh;
 }
 
-.container-header, .container-presentacion, .container-scientific, .container-text {
+.container-header, 
+.container-presentacion, 
+.container-scientific, 
+.container-text,
+.container-servicios-oneTime {
     padding-left: 8rem;
     padding-right: 8rem;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     min-height: 80vh;
-    align-items: flex-start;
+}
+
+section h2 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 4rem;
 }
 
 .hidden {
@@ -67,6 +78,39 @@ section {
 
 .container-text h1 {
     font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.cards i {
+    color: #FFBE00;
+    font-size: 3rem;
+}
+
+.primary-text-card {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.secondary-text-card {
+    font-size: 18px;
+}
+
+.container-cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-cards .row {
+    width: 100%;
+    row-gap: 2.5rem;
 }
 
 @media(prefers-reduced-motion) {
