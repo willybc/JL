@@ -15,6 +15,10 @@ body {
 
 .nav-link {
     color: #000000;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    line-height: 27.2px;
 }
 
 .nav-link:hover {
@@ -67,6 +71,24 @@ section h2 {
     background: #FFBE00;
 }
 
+.row-nav-container {
+    width: 100%;
+}
+
+.row-nav-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-language a{
+    font-weight: 800;
+}
+
+.language-content:hover {
+    font-weight: 500;
+}
+
 .presentacion {
     display: flex;
     flex-direction: column;
@@ -74,11 +96,14 @@ section h2 {
 }
 
 .presentacion h1 {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 60px;
 }
 
-.presentacion span {
-    font-size: 24px;
+.presentacion h2 {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 43.52px;
 }
 
 .container-text {
