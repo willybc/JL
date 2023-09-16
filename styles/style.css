@@ -13,6 +13,16 @@ body {
     height: 20vh;
 }
 
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: #000000;
+    font-weight: 800;
+
+}
+
 .container-header, 
 .container-presentacion, 
 .container-scientific, 
@@ -81,6 +91,7 @@ section h2 {
 
 .container-text h1 {
     font-weight: 600;
+    margin-top: 120px;
 }
 
 .cards {
@@ -95,13 +106,27 @@ section h2 {
     font-size: 3rem;
 }
 
+.cards-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.cards-2 i {
+    color: #000000;
+    font-size: 3rem;
+}
+
 .primary-text-card {
     font-size: 24px;
     font-weight: 600;
+    text-align: center;
 }
 
 .secondary-text-card {
     font-size: 18px;
+    text-align: center;
 }
 
 .container-cards {
@@ -121,7 +146,7 @@ section h2 {
 }
 
 .container-white-servicios-continuos, .container-white-servicios-contacto {
-    background: white;
+    background: #ffff;
     height: 60vh;
 }
 
