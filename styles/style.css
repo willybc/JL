@@ -446,3 +446,14 @@ section h2 {
     top: 0;
     left: 0;
 }
+
+.figure-browncircle {
+    position: absolute;
+    bottom: -75px;
+    right: 0;
+}
+
+.figure-browncircle img {
+    height: 750px;
+    width: 750px;
+}
