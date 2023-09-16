@@ -255,6 +255,7 @@ section h2 {
 
 .logo img {
     height: 125px;
+    padding: 2rem;
 }
 
 .logo:nth-child(2) {
