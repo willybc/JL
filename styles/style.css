@@ -280,11 +280,10 @@ section h2 {
 }
 
 .box-scientific {
-    min-height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 0;
+    height: 100%;
 }
 
 .title-scientific h1 {
@@ -328,11 +327,11 @@ section h2 {
     justify-content: space-around;
 }
 
-.container-servicios-continuos, .container-contacto {
-    height: 80vh;
+.container-scientific, .container-servicios-oneTime, .container-servicios-continuos, .container-contacto {
+    height: 100vh;
 }
 
-.box-servicios, .box-contacto {
+.box-scientific, .box-servicios, .box-contacto {
     background: white;
     display: flex;
     flex-direction: column;
@@ -342,6 +341,13 @@ section h2 {
 .title-scientific-new {
     position: absolute;
     padding: 4rem 8rem;
+}
+
+.title-box {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    padding: 0rem 4rem;
 }
 
 .container-cards-continuos {
@@ -374,17 +380,69 @@ section h2 {
     font-weight: 500;
 }
 
-#pixi-container {
-    width: 100%;
-    height: 100vh;
+.box-scientific, .box-contacto, .box-servicios {
     position: relative;
-  }
+}
 
-  /* Estilos para el canvas */
-  #pixi-container canvas {
-    width: 100%;
-    height: 100%;
-    display: block;
-    touch-action: none;
-    cursor: inherit;
-  }
+
+.figure img {
+    height: 150px;
+    width: 150px;
+}
+
+.figure-halfcircle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid transparent;
+
+/*     border-top-left-radius: 80%;
+    border-top-color: var(--color-secondary);
+    border-left-color: var(--color-secondary); */
+}
+
+.figure-circle {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.figure-circlemorecircle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.figure-circlestwo {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.figure-circleyellow {
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+}
+
+.figure-circlemoreline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.figure-elehalfcircle {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.circleyellow-pos2 {
+    left: 60%;
+}
+
+.circlemoreline-pos2 {
+    top: 0;
+    left: 0;
+}
