@@ -13,33 +13,34 @@ body {
     margin: 0;
 }
 
+/* Estilos para pantallas grandes */
 h1 {
-    font-size: 60px;
-    line-height: 65.28px;
+    font-size: 3.75rem; /* 60px en rem */
+    line-height: 4.08rem; /* 65.28px en rem */
     font-weight: 300;
 }
 
 h2 {
-    font-size: 40px;
-    line-height: 43.52px;
+    font-size: 2.5rem; /* 40px en rem */
+    line-height: 2.72rem; /* 43.52px en rem */
     font-weight: 300;
 }
 
 h3 {
-    font-size: 30px;
-    line-height: 32.64px;
+    font-size: 1.875rem; /* 30px en rem */
+    line-height: 2.048rem; /* 32.64px en rem */
     font-weight: 300;
 }
 
 h4 {
-    font-size: 20px;
-    line-height: 21.76px;
+    font-size: 1.25rem; /* 20px en rem */
+    line-height: 1.376rem; /* 21.76px en rem */
     font-weight: 300;
 }
 
 h5 {
-    font-size: 15px;
-    line-height: 16.32px;
+    font-size: 0.9375rem; /* 15px en rem */
+    line-height: 1.024rem; /* 16.32px en rem */
     font-weight: 300;
 }
 
@@ -134,13 +135,13 @@ section h2 {
 
 .presentacion h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.65rem;
 }
 
 .presentacion h2 {
     font-weight: 300;
-    font-size: 40px;
-    line-height: 43.52px;
+    font-size: 2.5rem;
+    line-height: 2.72rem;
 }
 
 .container-text {
@@ -154,8 +155,8 @@ section h2 {
 .container-text h1 {
     max-width: 1200px;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 65.28px;
+    font-size: 3.75rem;
+    line-height: 4.08rem;
     text-align: center;
 }
 
@@ -184,13 +185,13 @@ section h2 {
 }
 
 .primary-text-card {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
 }
 
 .secondary-text-card {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
 }
 
@@ -447,13 +448,93 @@ section h2 {
     left: 0;
 }
 
-.figure-browncircle {
+.figure-browncircle, .figure-browncircle2 {
     position: absolute;
-    bottom: -75px;
+    bottom: 0px;
     right: 0;
 }
 
-.figure-browncircle img {
-    height: 750px;
-    width: 750px;
+.figure-browncircle img, .figure-browncircle2 img {
+    height: 500px;
+    width: 500px;
+}
+
+.figure-browncircle2 {
+    display: none;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .container-header, 
+    .container-presentacion, 
+    .container-scientific, 
+    .container-text,
+    .container-servicios-oneTime,
+    .container-servicios-continuos,
+    .container-contacto
+    {
+        padding-left: 4rem;
+        padding-right: 4rem;
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-scientific {
+        font-size: 2.7rem;
+    }
+
+    .container-header, 
+    .container-presentacion, 
+    .container-scientific, 
+    .container-text,
+    .container-servicios-oneTime,
+    .container-servicios-continuos,
+    .container-contacto{
+        height: 100%;
+    }
+
+    .container-contacto {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .navbar{
+        display: none;
+    }
+
+    .figure-browncircle {
+        display: none;
+    }
+
+    /* .figure-browncircle2 {
+        display: inherit;
+    } */
+
+    .title-scientific {
+        position: initial;
+        padding-bottom: 2rem;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-text h1 {
+        font-size: 2.5rem; /* 40px en em */
+        line-height: 1.5em; /* 43.52px en em */
+    }
+
+
+
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 576px) {
+    .container-text h1 {
+        font-size: 2rem; /* 32px en em */
+    }
 }
