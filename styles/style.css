@@ -11,6 +11,8 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+
+    overflow-x: hidden;
 }
 
 /* Estilos para pantallas grandes */
@@ -258,6 +260,7 @@ section h2 {
 }
 
 .logo {
+    z-index: 5;
     padding-bottom: 1rem;
 }
 
@@ -459,19 +462,17 @@ section h2 {
     left: 0;
 }
 
-.figure-browncircle, .figure-browncircle2 {
+.figure-browncircle {
+    z-index: 1;
+
     position: absolute;
-    bottom: 0px;
-    right: 0;
+    bottom: -3.8rem;
+    right: -5rem;
 }
 
-.figure-browncircle img, .figure-browncircle2 img {
-    height: 500px;
-    width: 500px;
-}
-
-.figure-browncircle2 {
-    display: none;
+.figure-browncircle img {
+    height: 650px;
+    width: 650px;
 }
 
 .logo-contact {
@@ -493,8 +494,29 @@ section h2 {
         padding-left: 4rem;
         padding-right: 4rem;
 
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .figure-circlemorecircle {
+        bottom: -2rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .non-medium {
+        display: none;
+    }
+
+    .title-scientific {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 867px) and (min-width: 768px) {
+    .title-scientific {
+        font-size: 3.18rem;
     }
 }
 
@@ -528,10 +550,6 @@ section h2 {
         display: none;
     }
 
-    /* .figure-browncircle2 {
-        display: inherit;
-    } */
-
     .title-scientific {
         position: initial;
         padding-bottom: 2rem;
@@ -564,6 +582,23 @@ section h2 {
         display: flex;
         height: 200px;
         width: 250px;
+    }
+
+    .container-contacto .box-contacto .card-contacto {
+        padding: 0;
+    }
+
+    .contacto-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-contacto {
+        text-align: center;
+    }
+
+    .info-contacto h4 {
+        line-height: 1.4;
     }
 }
 
