@@ -466,13 +466,24 @@ section h2 {
     z-index: 1;
 
     position: absolute;
-    bottom: -3.8rem;
+    bottom: -3.4rem;
     right: -5rem;
 }
 
 .figure-browncircle img {
     height: 650px;
     width: 650px;
+}
+
+.figure-browncircle2 {
+    display: none;
+}
+
+.figure-browncircle2 img {
+    position: absolute;
+    height: 550px;
+    bottom: 9rem;
+    right: -4.7rem;
 }
 
 .logo-contact {
@@ -548,6 +559,11 @@ section h2 {
 
     .figure-browncircle {
         display: none;
+    }
+
+    .figure-browncircle2 {
+        display: inherit;
+        ;
     }
 
     .title-scientific {
