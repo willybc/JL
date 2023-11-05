@@ -486,6 +486,19 @@ section h2 {
     right: -4.7rem;
 }
 
+.figure-anotheryellow {
+    position: absolute;
+    right: -4rem;
+    top: -10rem;
+}
+
+.figure-elehalfcircleyellow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
 .logo-contact {
     display: flex;
     height: 300px;
