@@ -1,5 +1,3 @@
-## Angular + Bootstrap
-
   ![image](https://github.com/willybc/JL/assets/22482325/d204eeba-2d09-4166-9cda-999e3037c95b)
   ![image](https://github.com/willybc/JL/assets/22482325/58f6b489-49b3-46f4-8e2c-392fed7d8e59)
   ![image](https://github.com/willybc/JL/assets/22482325/88e859c8-f1bb-4a85-a9ec-d8648a1d21c4)
